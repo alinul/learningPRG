@@ -10,31 +10,21 @@
     <button class="button1">
       <a href="index.html">News</a>        
     </button>
-    <button class="button1" href="page2.html">
-      <a href="slideshow.html">Slideshow</a></a>  
+    <button class="mainButton" href="page2.html">
+      <a href="slideshow.html">Slideshow</a>  
     </button>
-    <button class="mainButton">
+    <button class="button1">
       <a href="contact.html">Contact</a>  
     </button>
   </div>
 </head>
 <body>
-<table align="center">
-  <tr>
-    <th>Locatie Sediu</th>
-    <th>Nume agent</th> 
-    <th>Nr Tel</th>
-  </tr>
-  <tr>
-    <td>Cluj-Napoca</td>
-    <td>Mircea</td> 
-    <td>0745.xx22xx</td>
-  </tr>
-  <tr>
-    <td>Timisoara</td>
-    <td>Alin</td> 
-    <td>0745.33xx33</td>
-  </tr>
-</table>
+  <div id="carousel" class="story">
+    <button id="button" onclick="changeImage('prev')">Previous</button>
+    <img id="imageHolder" src="img\1.png"></img>
+    <button id="button" onclick="changeImage('next')">Next</button>
+  </div>
+  <script src="carousel.js"></script>
 </body>
+
 </html>
